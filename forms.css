@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+h1{
+	margin: 30px auto;
+}
+.logo{
+	width: 100px;
+	float: left;
+	margin-right: 35%;
+	margin-left: 10px;
+	margin-top: -20px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+}
+
+.main{
+	margin-top: 50px;
+	width: 100%;
+	height: 93vh;
+	background: linear-gradient(-90deg, #fce7f6 0%, #e3eaf8 100%);
+}
+
+.main-l{
+	width: 36%;
+	margin:0 auto;
+
+	padding-bottom: 35px;
+}
+
+.header{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 180px;
+}
+
+.header a{
+	background: #fff;
+	border: 5px solid #000;
+	font-size: 16px;
+	color: #0000CD;
+	border-radius: 25px;
+	padding: 15px 35px;
+	padding-left: 45px;
+	letter-spacing: 0.1em;
+}
+
+input[type=text],input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit], .btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+	margin-top: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.navbar{
+	margin: 0;
+	height: 20px;
+}
+
+form{
+	margin-top: 50px;
+
+}
+
+.nav-ul{
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-item{
+	/* float: left; */
+	padding: 10px;
+	font-weight: 600;
+	margin-right: 2%;
+	cursor: pointer;
+	padding-bottom: 24px; 
+}
+
+.brand{
+	padding-right: 0;
+	 margin-right: 0;
+	 margin-left: 50px;
+}
+
+.brand-h{
+	font-size: 17px;
+	margin-right: 450px;
+	margin-left: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+}
+
+.active, .nav-item:hover{
+	color: #add8e6;
+	border-bottom: 4px solid #add8e6;
+}
+
+.brand:hover{
+	color: #000;
+	border-bottom: 0;
+}
+
+.brand img{
+	height: 40px;
+}
+
+@media(max-width: 700px){
+
+	.del{
+		display: none;
+	}
+}

@@ -1,0 +1,163 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: linear-gradient(-90deg, #fce7f6 0%, #e3eaf8 100%);
+	height: 100vh;
+	margin-top: 50px;
+}
+
+.cart-item{
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(255, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.cart-img{
+    margin-left: 20px;
+}
+.pers-info{
+	margin-left: 20px;
+	background-color: rgb(255, 202, 255);
+	padding:20px;
+	width:50%;
+	height:60%;
+	border-radius: 15px;
+}
+.middle-one{
+    margin-left: 20px;
+}
+
+.text{
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.cart-img > img{
+    width: 100px;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.checkout, .rm-cart{
+    padding: 9px;
+    background-color: grey;
+    color: white;
+    cursor: pointer
+}
+.logo{
+	width: 100px;
+	float: left;
+	margin-right: 35%;
+	margin-left: 10px;
+	margin-top: -20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.navbar{
+	margin: 0;
+	height: 20px;
+}
+
+.nav-ul{
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-item{
+	/* float: left; */
+	padding: 10px;
+	font-weight: 600;
+	margin-right: 2%;
+	cursor: pointer;
+	padding-bottom: 10px; 
+}
+
+.brand{
+	padding-right: 0;
+	 margin-right: 0;
+	 margin-left: 50px;
+}
+
+.brand-h{
+	font-size: 17px;
+	margin-right: 450px;
+	margin-left: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+}
+
+.active, .nav-item:hover{
+	color: #add8e6;
+	border-bottom: 4px solid #add8e6;
+}
+
+.brand:hover{
+	color: #000;
+	border-bottom: 0;
+}
+
+.brand img{
+	height: 40px;
+}
+h3, h4{
+	margin: 10px;
+}
+p{
+	margin: 15px;
+}
+
+@media(max-width: 700px){
+
+	.del{
+		display: none;
+	}
+	.cart-item{
+		padding: 10px;
+		border-radius: 15px;
+		background: rgb(255, 247, 247);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.middle-one, .middle-two, .right{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 40px;
+	}
+	.container{
+		height: 100%;
+		padding: 50px;
+	}
+}
+
+@media(max-width: 1000px){
+
+	.container{
+		display: flex;
+		flex-direction: column;;
+	}
+}

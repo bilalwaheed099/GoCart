@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.navbar{
+	margin: 0;
+	height: 20px;
+}
+
+.nav-ul{
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-item{
+	/* float: left; */
+	padding: 10px;
+	font-weight: 600;
+	margin-right: 2%;
+	cursor: pointer;
+	padding-bottom: 10px; 
+}
+
+.brand{
+	padding-right: 0;
+	 margin-right: 0;
+	 margin-left: 50px;
+}
+
+.brand-h{
+	font-size: 17px;
+	margin-right: 450px;
+	margin-left: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+}
+
+.active, .nav-item:hover{
+	color: #add8e6;
+	border-bottom: 4px solid #add8e6;
+}
+
+.brand:hover{
+	color: #000;
+	border-bottom: 0;
+}
+
+.brand img{
+	height: 40px;
+}
+.logo{
+	width: 100px;
+	float: left;
+	margin-right: 35%;
+	margin-left: 10px;
+	margin-top: -20px;
+}
+.table-cont{
+	margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    background: linear-gradient(-90deg, #fce7f6 0%, #e3eaf8 100%);
+
+}
+th{
+    border:1px solid black;
+    background: silver;
+    padding: 5px;
+}
+td{
+    border:1px solid black;
+    padding: 3px
+}
+button{
+    width: 100px;
+    height: 30px;
+}
